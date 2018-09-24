@@ -1,0 +1,9 @@
+print("INTRODUCIR VELOCIDAD INICIAL")
+rVEL1 = float(input())
+print("INTRODUCIR LA VELOCIDAD FINAL")
+rVEL2 = float(input())
+print("INTRODUCCIR EL TIEMPO")
+rTIEMPO = float(input())
+print("LA DISTANCIA RECORRIDA ES ")
+rDISTANCIA = (rVEL2 + rVEL1) / 2 * rTIEMPO
+print(rDISTANCIA)

@@ -1,0 +1,18 @@
+
+public class JavaApplication {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("GIVE MY DATOS >:v EL R(RADIO) n(GRADOS) ");
+        double rRADIO, rGRADOS, rVOLUMEN;
+        
+        System.out.println(" SI QUIERES EL RESULTADO DAME EL RADIO ");
+        rRADIO = input.nextDouble();
+        System.out.println(" AHORA SUETA LOS GRADOS DEL CENTRO ");
+        rGRADOS = input.nextDouble();
+        rVOLUMEN = (double) 4 / 3 * (3.1416 * Math.pow(rRADIO, 3) / 360) * rGRADOS;
+        System.out.println("AQUI TIENES TU VOLUMEN :v ");
+        System.out.println(rVOLUMEN);
+        System.out.println("TIENES QUE CONFIAR, QUE ESTE BIEN :v ");
+    }
+}

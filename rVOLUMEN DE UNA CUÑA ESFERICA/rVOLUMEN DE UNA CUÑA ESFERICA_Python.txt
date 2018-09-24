@@ -1,0 +1,9 @@
+print("GIVE MY DATOS >:v EL R(RADIO) n(GRADOS) ")
+print(" SI QUIERES EL RESULTADO DAME EL RADIO ")
+rRADIO = float(input())
+print(" AHORA SUETA LOS GRADOS DEL CENTRO ")
+rGRADOS = float(input())
+rVOLUMEN = float(4) / 3 * (3.1416 * rRADIO ** 3 / 360) * rGRADOS
+print("AQUI TIENES TU VOLUMEN :v ")
+print(rVOLUMEN)
+print("TIENES QUE CONFIAR, QUE ESTE BIEN :v ")

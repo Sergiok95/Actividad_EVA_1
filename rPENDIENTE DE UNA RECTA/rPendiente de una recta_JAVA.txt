@@ -1,0 +1,22 @@
+
+
+public class JavaApplication {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("Para calcular la pendiente de una recta tienes que darme y1 y2 , x1 x2");
+        double rY2, rY1, rX2, rX1, rPen;
+        
+        System.out.println("Dame Y2");
+        rY2 = input.nextDouble();
+        System.out.println("Dame Y1");
+        rY1 = input.nextDouble();
+        System.out.println("Dame x2");
+        rX2 = input.nextDouble();
+        System.out.println("Dame x1");
+        rX1 = input.nextDouble();
+        rPen = (rY2 - rY1) / (rX2 - rX1);
+        System.out.print("La pendiente es ");
+        System.out.println(rPen);
+    }
+}

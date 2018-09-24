@@ -1,0 +1,25 @@
+
+
+public class JavaApplication {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("INTRODUCIR VELOCIDAD INICIAL");
+        double rVEL1;
+        
+        rVEL1 = input.nextDouble();
+        System.out.println("INTRODUCIR LA VELOCIDAD FINAL");
+        double rVEL2;
+        
+        rVEL2 = input.nextDouble();
+        System.out.println("INTRODUCCIR EL TIEMPO");
+        double rTIEMPO;
+        
+        rTIEMPO = input.nextDouble();
+        System.out.println("LA DISTANCIA RECORRIDA ES ");
+        double rDISTANCIA;
+        
+        rDISTANCIA = (rVEL2 + rVEL1) / 2 * rTIEMPO;
+        System.out.println(rDISTANCIA);
+    }
+}

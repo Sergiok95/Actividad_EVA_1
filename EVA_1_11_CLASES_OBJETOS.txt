@@ -1,0 +1,37 @@
+﻿
+import java.util.Scanner;
+
+/*
+ * demostracion de programacion orientada a objetos 
+ */
+
+/**
+ *
+ * @author Ivan Piñon Peña 18550624
+ */
+public class Principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        input.nextLine();
+        int iVal = 10;
+        Ejemplo eMiObjetoEjem;
+        eMiObjetoEjem = new Ejemplo();
+        
+        Ejemplo eObj2 = new Ejemplo();
+        
+        Ejemplo eObj3;
+        
+        
+        
+        // erorr : System.out.println(eObj3);
+    }
+    
+}
+//TIPOS DE DATOS ABSTRACTOS
+class Ejemplo { //SON CATEGORIAS
+    int iVal = 10;
+}

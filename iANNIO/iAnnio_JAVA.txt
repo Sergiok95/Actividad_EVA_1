@@ -1,0 +1,23 @@
+
+
+public class JavaApplication {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("Introduce tu nombre");
+        String sNombre;
+        
+        sNombre = input.nextLine();
+        System.out.println("Ingresa la edad que tienes o tendras este año");
+        int iEdad;
+        
+        iEdad = input.nextInt();
+        int iAnnio;
+        
+        iAnnio = 2018 - iEdad;
+        System.out.println("Tu nombre es ");
+        System.out.println(sNombre);
+        System.out.println("Y tu año de nacimiento es ");
+        System.out.println(iAnnio);
+    }
+}

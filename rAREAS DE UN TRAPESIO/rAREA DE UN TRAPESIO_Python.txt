@@ -1,0 +1,10 @@
+print("SI QUIERES EL AREA TIENES QUE DARME TRES DATOS B, b, h CADA UNA RESPECTIVAMENTE")
+print("DAME EL B ")
+rBASE = float(input())
+print("DAME LA b")
+rBASE2 = float(input())
+print("DAME LA h")
+rALTURA = float(input())
+rAREA = (rBASE + rBASE2) / 2 * rALTURA
+print("TU ALTURA ES ")
+print(rAREA)

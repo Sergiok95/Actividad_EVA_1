@@ -1,0 +1,42 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    cout << "GIVE MY DATOS >:v EL R(RADIO) n(GRADOS) " << endl;
+    double rRADIO, rGRADOS, rVOLUMEN;
+    
+    cout << " SI QUIERES EL RESULTADO DAME EL RADIO " << endl;
+    cin >> rRADIO;
+    cout << " AHORA SUETA LOS GRADOS DEL CENTRO " << endl;
+    cin >> rGRADOS;
+    rVOLUMEN = (double) 4 / 3 * (3.1416 * pow(rRADIO, 3) / 360) * rGRADOS;
+    cout << "AQUI TIENES TU VOLUMEN :v " << endl;
+    cout << rVOLUMEN << endl;
+    cout << "TIENES QUE CONFIAR, QUE ESTE BIEN :v " << endl;
+    return 0;
+}
+
+// The following implements type conversion functions.
+string toString (double value) { //int also
+    stringstream temp;
+    temp << value;
+    return temp.str();
+}
+
+int toInt (string text) {
+    return atoi(text.c_str());
+}
+
+double toDouble (string text) {
+    return atof(text.c_str());
+}

@@ -1,0 +1,13 @@
+
+public class JavaApplication {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        System.out.println("Introduce tu nombre");
+        String sNombre;
+        
+        sNombre = input.nextLine();
+        System.out.print("TU NOMBRE ES ");
+        System.out.println(sNombre);
+    }
+}

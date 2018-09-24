@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Homar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-12 09:31:21 a. m."/>
+        <attribute name="created" value="SG9tYXI7REVTS1RPUC1STUNVMThTOzIwMTgtMDktMTI7MDk6MTc6NDEgYS4gbS47MzA0Nw=="/>
+        <attribute name="edited" value="SG9tYXI7REVTS1RPUC1STUNVMThTOzIwMTgtMDktMTI7MDk6MzE6MjEgYS4gbS47MTszMTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;INTRODUCIR VELOCIDAD INICIAL&quot;" newline="True"/>
+            <declare name="rVEL1" type="Real" array="False" size=""/>
+            <input variable="rVEL1"/>
+            <output expression="&quot;INTRODUCIR LA VELOCIDAD FINAL&quot;" newline="True"/>
+            <declare name="rVEL2" type="Real" array="False" size=""/>
+            <input variable="rVEL2"/>
+            <output expression="&quot;INTRODUCCIR EL TIEMPO&quot;" newline="True"/>
+            <declare name="rTIEMPO" type="Real" array="False" size=""/>
+            <input variable="rTIEMPO"/>
+            <output expression="&quot;LA DISTANCIA RECORRIDA ES &quot;" newline="True"/>
+            <declare name="rDISTANCIA" type="Real" array="False" size=""/>
+            <assign variable="rDISTANCIA" expression="((rVEL2 + rVEL1)/2)*rTIEMPO"/>
+            <output expression="rDISTANCIA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Homar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-22 07:14:57 p. m."/>
+        <attribute name="created" value="SG9tYXI7REVTS1RPUC1STUNVMThTOzIwMTgtMDktMjI7MDE6NDA6MTQgcC4gbS47MzA1MQ=="/>
+        <attribute name="edited" value="SG9tYXI7REVTS1RPUC1STUNVMThTOzIwMTgtMDktMjI7MDc6MTQ6NTcgcC4gbS47MzszMTc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hola mundo&quot;" newline="True"/>
+            <declare name="vVariable, vIntre" type="Integer" array="False" size=""/>
+            <input variable="vVariable"/>
+            <input variable="vIntre"/>
+        </body>
+    </function>
+</flowgorithm>

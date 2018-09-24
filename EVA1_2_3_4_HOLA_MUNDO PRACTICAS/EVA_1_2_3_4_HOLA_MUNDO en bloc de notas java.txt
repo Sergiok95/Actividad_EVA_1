@@ -1,0 +1,14 @@
+public class Principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        //int [] iArreglo = new int [10000000];
+        byte[] iArreglo = new byte [999999999];
+        System.out.println("HOLA MUNDO" + iArreglo);
+    }
+    
+}
